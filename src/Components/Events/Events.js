@@ -4,7 +4,7 @@ import './Events.css'
 const Events = () => {
     return (
         <div>
-            
+
         </div>
     )
 }

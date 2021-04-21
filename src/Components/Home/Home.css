@@ -1,0 +1,76 @@
+
+.upper{
+    position: fixed;
+    height: 50%;
+    width:100%;
+}
+
+.welcome{
+    position: fixed;
+    height: 50%;
+    width:100%;
+    background-image: url('images/TSA2.png');
+}
+
+.dark{
+    width:100%;
+    position: fixed;
+    height: 50%;
+    background-color:rgba(206,175,137,0.7);
+}
+  
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    color:white;
+    text-transform: uppercase;
+  }
+
+.caption h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h2{
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 3rem;
+}
+
+/*-- bottom --*/
+.about{
+    position:fixed;
+    height: 50%;
+    bottom: 0;
+    width:100%;
+}
+
+.about h1{
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.content{
+    padding:30px;
+}
+
+.pi{
+    width: 140px;
+    height: 120px;
+}
+
+.box h2{
+    text-align: center;
+    color: #666666;
+}
+
+.box p{
+    text-align: center;
+    color: #666666;
+}

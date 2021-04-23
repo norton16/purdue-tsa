@@ -1,58 +1,88 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .contact-left {
-    background-color: #fffef2;
-    height: 800px;
+    /* background-color: #CEAF89; */
+    height: 100vh;
+    color: #000000
+}
+
+.contact-left h1 {
+    color: #CEAF89;
 }
 
 .contact-blurb {
-    width: 40%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: left;
-    margin-top: 30%;
+    height: 100%;
 }
 
-    .contact-blurb p {
-        width: 85%;
-    }
+.contact-blurb p {
+    width: 85%;
+}
 
 .contact-right {
-    height: 800px;
+    /* height: 100vh; */
+    background-color: #ffffff;
 }
 
 .contact-form {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 30%;
 }
 
-    .contact-form form {
-        text-align: left;
-    }
+.contact-form form {
+    text-align: left;
+    font-size: 1.5rem;
+}
 
-    .contact-form input[type=text], input[type=email] {
-        border: none;
-        border-bottom: 2px solid;
-        margin-bottom: 15%;
-        width: 100%;
-    }
+.contact-form input[type=text],
+input[type=email] {
+    border: none;
+    border-bottom: 3px solid #737B7D;
+    margin-bottom: 15%;
+    padding-bottom: 1rem;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
 
-        .contact-form input[type=text]:focus, input[type=email]:focus {
-            outline: none;
-        }
+.contact-form input[type=text]:focus,
+input[type=email]:focus {
+    outline: none;
+}
 
-    .contact-form input[type=submit] {
-        background-color: transparent;
-        border: 2px solid #e1c775;
-        padding: .5rem;
-    }
+.contact-form input[type=submit] {
+    background-color: transparent;
+    border: 2px solid #CEAF89;
+    border-radius: 5px;
+    width: 175px;
+    padding: .5rem;
+    transition: 0.2s ease-in-out;
+}
 
-        .contact-form input[type=submit]:hover {
-            background-color: #e1c775;
-            color: white;
-            transition: .2s background-color linear;
-            cursor: pointer;
-        }
+.contact-form input[type=submit]:hover {
+    background-color: #CEAF89;
+    color: white;
+    transition: .2s background-color linear;
+    cursor: pointer;
+}
+
+.contact-form input[type=text]:focus,
+input[type=email]:focus {
+    border-color: #CEAF89;
+}
 
 .warning {
     font-size: 12px;
     margin-left: 5px;
 }
+

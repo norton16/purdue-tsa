@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { Contact, Home, Navbar, Events } from './Components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-import { Grid, Grow } from '@material-ui/core';
 
 function App() {
   return (

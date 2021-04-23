@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Contact, Home, Navbar, Events, Footer } from './Components'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 

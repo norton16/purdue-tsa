@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Grid item xs={6} sm={6} md={6} lg={6}>
                                 <div className="nav-links">
                                     <div>
-                                        <Link to="/about">About</Link>
+                                        <Link to="/">About</Link>
                                         <Link to="/events">Events</Link>
                                         <Link to="/contact">Contact</Link>
                                     </div>

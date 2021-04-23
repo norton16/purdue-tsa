@@ -1,6 +1,7 @@
 .footer-wrapper {
     background: #000000;
     margin-top: 10rem;
+    padding: 2rem 0rem;
 }
 
 .footer-wrapper .logo {
@@ -13,8 +14,8 @@
     /* height: 100%; */
     color: #737B7D;
     text-align: left;
-    padding-left: 2rem;
-    font-size: 0.8em;
+    padding-left: 4rem;
+    font-size: 0.7em;
 }
 
 .footer-links {
@@ -26,5 +27,9 @@
 
 .footer-links img {
     width: 25px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+}
+
+.footer-links div {
+    display: flex;
 }

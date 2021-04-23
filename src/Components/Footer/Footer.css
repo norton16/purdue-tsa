@@ -1,0 +1,30 @@
+.footer-wrapper {
+    background: #000000;
+    margin-top: 10rem;
+}
+
+.footer-wrapper .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-contact {
+    /* height: 100%; */
+    color: #737B7D;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 0.8em;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-links img {
+    width: 25px;
+    margin-left: 1rem;
+}
